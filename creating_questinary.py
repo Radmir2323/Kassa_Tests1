@@ -27,7 +27,7 @@ receptionSearch_element = driver.find_element(By.ID, "receptionSearch")
 receptionSearch_element.send_keys("0234567891")
 receptionSearchSubmit_element = driver.find_element(By.ID, "receptionSearchSubmit")
 receptionSearchSubmit_element.click()
-# time.sleep(25)
+time.sleep(25)
 
 new_client_btn = driver.find_element(By.CSS_SELECTOR, "a[class*=btn-lg]")
 new_client_btn.click()
